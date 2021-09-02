@@ -9,7 +9,7 @@ namespace FinalProjectMidSemeter
 
     public struct Vector3
     {
-        //testc TEST 
+        
         float x;
         float y;
         float z;
@@ -36,6 +36,14 @@ namespace FinalProjectMidSemeter
             return _newvector;
         }
 
+        public void DotProduct()
+        {
+            throw new System.NotImplementedException();
+        }
 
+        public void Normalize()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
