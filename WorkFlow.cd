@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Struct Name="FinalProjectMidSemeter.Vector3">
-    <Position X="14.25" Y="3.5" Width="1.5" />
+    <Position X="14.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABgAQAAYAE=</HashCode>
       <FileName>Vector3.cs</FileName>
