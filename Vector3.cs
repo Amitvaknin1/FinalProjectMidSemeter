@@ -9,7 +9,7 @@ namespace FinalProjectMidSemeter
 
     public struct Vector3
     {
-
+        //testc TEST 
         float x;
         float y;
         float z;
