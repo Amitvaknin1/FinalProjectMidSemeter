@@ -7,7 +7,20 @@ namespace FinalProjectMidSemeter
 {
     public static class Physics
     {
-        public static float gravity = 9.18f;
+        public static List<BoxCollider> BoxColliders = new List<BoxCollider>();
+        public static float _gravity = 9.8f;
+
+        public static float Gravity
+        {
+            get
+            {
+                return _gravity;
+            }
+            set
+            {
+                _gravity = value;
+            }
+        }
 
     }
 }

@@ -7,6 +7,7 @@ namespace FinalProjectMidSemeter
 {
     public class Scene
     {
-
+       
     }
+    
 }
