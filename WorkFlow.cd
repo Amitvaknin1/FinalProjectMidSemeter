@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="FinalProjectMidSemeter.Scene">
-    <Position X="8.75" Y="2.5" Width="1.5" />
+    <Position X="8.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Scene.cs</FileName>
@@ -32,7 +32,7 @@
   <Class Name="FinalProjectMidSemeter.Physics">
     <Position X="8" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAIAAAAAAABAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Physics.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -51,7 +51,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="FinalProjectMidSemeter.BoxCollider">
-    <Position X="17.5" Y="9" Width="1.5" />
+    <Position X="14" Y="8.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
       <FileName>BoxCollider.cs</FileName>
