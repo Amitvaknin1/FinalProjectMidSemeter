@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Numerics;
+using System.Threading;
 
 namespace FinalProjectMidSemeter
 {
-    internal struct Vector2
+     public struct Vector2
     {
         public float X { get; set; }
         public float Y { get; set; }

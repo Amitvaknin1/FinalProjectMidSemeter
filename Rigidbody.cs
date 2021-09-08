@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;        
 
 namespace FinalProjectMidSemeter
 {
+    
     public class Rigidbody : Components
     {
+        
         bool _useGravity = false;
         float _gravityScale;
 
@@ -15,9 +18,9 @@ namespace FinalProjectMidSemeter
 
         }
 
-        public void ApplyConstantForce(float flotat ,Vector3 vector)
+        public void ApplyConstantForce(float flotat, Vector2 _vector)
         {
-            throw new System.NotImplementedException();
+           
         }
     }
 }
