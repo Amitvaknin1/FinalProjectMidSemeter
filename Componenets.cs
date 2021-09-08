@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace FinalProjectMidSemeter
 {
-    public class Components :IComponent
+    public abstract class Components :IComponent
     {
         private GameObject go;
         protected GameObject daddy;
