@@ -8,6 +8,7 @@ namespace FinalProjectMidSemeter
 {
     public abstract class Components :IComponent
     {
+        
         private GameObject go;
         protected GameObject daddy;
         public Components(GameObject go)
