@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using Microsoft.Xna.Framework;
 
 
 namespace FinalProjectMidSemeter
@@ -32,6 +33,7 @@ namespace FinalProjectMidSemeter
             Scale = scale;
 
             Console.WriteLine(Environment.NewLine + $"New Transform{this}" + Environment.NewLine);
+        }
 
 
 

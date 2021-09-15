@@ -15,6 +15,7 @@ namespace FinalProjectMidSemeter
 
         public string Name { get => _name; set => _name = value; }
         public bool IsEnabled { get => _isEnabled; set => _isEnabled = value; }
+    
 
         public GameObject(string name)
         {

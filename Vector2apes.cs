@@ -7,18 +7,18 @@ using System.Threading;
 
 namespace FinalProjectMidSemeter
 {
-     public struct Vector2
+     public struct Vector2apes
     {
         public float X { get; set; }
         public float Y { get; set; }
 
-        public Vector2(float givenX, float givenY)
+        public Vector2apes(float givenX, float givenY)
         {
             X = givenX;
             Y = givenY;
         }
 
-        public Vector2(Vector2 givenVector2Gever)
+        public Vector2apes(Vector2apes givenVector2Gever)
         {
             X = givenVector2Gever.X;
             Y = givenVector2Gever.Y;
@@ -29,39 +29,39 @@ namespace FinalProjectMidSemeter
             return "X"+X +"Y" +Y;
         }
 
-        public static Vector2 Zero => new Vector2(0, 0);
+        public static Vector2apes Zero => new Vector2apes(0, 0);
 
-        public static Vector2 operator -(Vector2 first, Vector2 second)
+        public static Vector2apes operator -(Vector2apes first, Vector2apes second)
         {
-            return new Vector2(first.X - second.X, first.Y - second.Y);
+            return new Vector2apes(first.X - second.X, first.Y - second.Y);
         }
 
-        public static Vector2 operator +(Vector2 first, Vector2 second)
+        public static Vector2apes operator +(Vector2apes first, Vector2apes second)
         {
-            return new Vector2(first.X + second.X, first.Y + second.Y);
+            return new Vector2apes(first.X + second.X, first.Y + second.Y);
         }
 
-        public static Vector2 operator *(Vector2 vector, float scalar)
+        public static Vector2apes operator *(Vector2apes vector, float scalar)
         {
-            return new Vector2(vector.X * scalar, vector.Y * scalar);
+            return new Vector2apes(vector.X * scalar, vector.Y * scalar);
         }
 
-        public static Vector2 operator /(Vector2 vector, float scalar)
+        public static Vector2apes operator /(Vector2apes vector, float scalar)
         {
-            return new Vector2(vector.X / scalar, vector.Y / scalar);
+            return new Vector2apes(vector.X / scalar, vector.Y / scalar);
         }
 
-        public static bool operator ==(Vector2 first, Vector2 second)
+        public static bool operator ==(Vector2apes first, Vector2apes second)
         {
             return (first.X == second.X && first.Y == second.Y);
         }
 
-        public static bool operator !=(Vector2 first, Vector2 second)
+        public static bool operator !=(Vector2apes first, Vector2apes second)
         {
             return (first.X != second.X || first.Y != second.Y);
         }
 
-        public float DotProduct(Vector2 other)
+        public float DotProduct(Vector2apes other)
         {
             return X * other.X + Y * other.Y;
         }
@@ -72,9 +72,9 @@ namespace FinalProjectMidSemeter
             return (float)Math.Sqrt(X * X + Y * Y);
         }
 
-        public Vector2 Normalized()
+        public Vector2apes Normalized()
         {
-            return new Vector2(X / this.Magnitude(), Y / this.Magnitude());
+            return new Vector2apes(X / this.Magnitude(), Y / this.Magnitude());
         }
 
         public override bool Equals(object obj)

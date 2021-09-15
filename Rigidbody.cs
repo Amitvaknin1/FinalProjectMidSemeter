@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;        
+using System.Threading;
+using Microsoft.Xna.Framework;
 
 namespace FinalProjectMidSemeter
 {
@@ -24,7 +25,7 @@ namespace FinalProjectMidSemeter
                 TransformP.Position = position;
         }
 
-        public void ApplyConstantForce(float flotat, Vector2 _vector)
+        public void ApplyConstantForce(float flotat, Vector2apes _vector)
         {
            
         }

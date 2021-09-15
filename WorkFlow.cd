@@ -17,14 +17,14 @@
   <Class Name="FinalProjectMidSemeter.GameObject">
     <Position X="11.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAKAABACAAIAAAAAEACAAAAABAAAAIAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAKAAAAKAAIAAAAAEADAQAAABAAAAIAAAAAAAAAAA=</HashCode>
       <FileName>GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="FinalProjectMidSemeter.Components">
     <Position X="5.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAACAAAAAAAAQQAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <HashCode>AAQCIAAAACAAAAAAAQAAAAQACAAAQAAIAAAAAAAACAA=</HashCode>
       <FileName>Componenets.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -38,30 +38,37 @@
   </Class>
   <Class Name="FinalProjectMidSemeter.Transform">
     <Position X="2.75" Y="6.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FinalProjectMidSemeter.Transform.MoveDirection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Transform.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>gAAAAAAAAAAAAAAgAAIAAAAAAAAAAAAAAAAghAAAACA=</HashCode>
       <FileName>Transform.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="FinalProjectMidSemeter.Rigidbody">
     <Position X="3" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <HashCode>AAABAAQAAAAAAAAAgAAIAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Rigidbody.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="FinalProjectMidSemeter.BoxCollider">
     <Position X="14" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>BoxCollider.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Struct Name="FinalProjectMidSemeter.Vector2">
+  <Struct Name="FinalProjectMidSemeter.Vector2apes">
     <Position X="14" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAQAEAAAAAAAAE4AUAAAAAAQAAAIAAAAAAAAEAYiA=</HashCode>
-      <FileName>Vector2.cs</FileName>
+      <FileName>Vector2apes.cs</FileName>
     </TypeIdentifier>
   </Struct>
   <Interface Name="FinalProjectMidSemeter.IComponent">
