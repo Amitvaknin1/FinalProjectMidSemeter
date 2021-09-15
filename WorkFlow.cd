@@ -46,7 +46,7 @@
       </Enum>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>gAAAAAAAAAAAAAAgAAIAAAAAAAAAAAAAAAAghAAAACA=</HashCode>
+      <HashCode>gAAAAAABAAAAAAAgAAIAAAAAAAAAAAAAAAAghAAAACA=</HashCode>
       <FileName>Transform.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -60,8 +60,15 @@
   <Class Name="FinalProjectMidSemeter.BoxCollider">
     <Position X="14" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CIAEAAgAAIAAAgAIABcABAAAEQAgQAAAIAABAAMAQCA=</HashCode>
       <FileName>BoxCollider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectMidSemeter.DeltaTime">
+    <Position X="17.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAQAAAAAABAQAAAAAIAABAACAAAAAAAAAgAAA=</HashCode>
+      <FileName>DeltaTime.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Struct Name="FinalProjectMidSemeter.Vector2apes">

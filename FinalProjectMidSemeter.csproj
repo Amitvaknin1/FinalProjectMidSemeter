@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="BoxCollider.cs" />
     <Compile Include="Componenets.cs" />
+    <Compile Include="DeltaTime.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="IComponent.cs" />
@@ -55,9 +56,10 @@
     <Compile Include="Rigidbody.cs" />
     <Compile Include="Scene.cs" />
     <Compile Include="Transform.cs" />
-    <Compile Include="Vector2.cs" />
+    <Compile Include="Vector2apes.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="App.config" />
     <None Include="WorkFlow.cd" />
   </ItemGroup>
