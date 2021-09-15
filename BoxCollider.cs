@@ -34,6 +34,7 @@ namespace FinalProjectMidSemeter
             GameObjectP = gameObject;
             TransformP = gameObject.GetComponent<Transform>();
             Name = gameObject.Name;
+            Physics.BoxColliders.Add(this);
 
         }
         public void CollidesWith(BoxCollider anotherCollider)
