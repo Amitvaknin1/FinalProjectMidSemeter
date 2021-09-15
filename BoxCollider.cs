@@ -11,6 +11,10 @@ namespace FinalProjectMidSemeter
     {
         public readonly int _sizex = 1;
         public readonly int _sizey = 1;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> master
 
     }
 }

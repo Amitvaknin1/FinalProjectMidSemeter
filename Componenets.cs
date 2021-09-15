@@ -8,14 +8,14 @@ namespace FinalProjectMidSemeter
 {
     public abstract class Components :IComponent
     {
-        
-        private GameObject go;
-        protected GameObject daddy;
-        public Components(GameObject go)
-        {
-          
-            daddy = go;
-        }
+
+        GameObject _gameObject;
+        Transform _transform;
+        string _name;
+        public GameObject GameObjectP { get => _gameObject; set => _gameObject = value; }
+        public Transform TransformP { get => _transform; set => _transform = value; }
+        public string Name { get => _name; set => _name = value; }
+       
 
         public void Start()
         {
