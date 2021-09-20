@@ -18,10 +18,10 @@ namespace FinalProjectMidSemeter
             Y = givenY;
         }
 
-        public Vector2apes(Vector2apes givenVector2Gever)
+        public Vector2apes(Vector2apes givenVector2apes)
         {
-            X = givenVector2Gever.X;
-            Y = givenVector2Gever.Y;
+            X = givenVector2apes.X;
+            Y = givenVector2apes.Y;
         }
 
         public override string ToString()
