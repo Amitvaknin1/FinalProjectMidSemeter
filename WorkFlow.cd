@@ -17,7 +17,7 @@
   <Class Name="FinalProjectMidSemeter.GameObject">
     <Position X="11.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAKAAAAKAAIAAAAAEADAQAAABAAAAIAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAKAAAAKAAIAAAAAEETAUAAABQAAAIAAAAAAAAAAA=</HashCode>
       <FileName>GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -69,6 +69,13 @@
     <TypeIdentifier>
       <HashCode>ACCAAAAAQAAAAAABAQAAAAAIAABAACAAAAAAAAAgAAA=</HashCode>
       <FileName>DeltaTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectMidSemeter.TreeBuilder">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TreeBuilder.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Struct Name="FinalProjectMidSemeter.Vector2apes">

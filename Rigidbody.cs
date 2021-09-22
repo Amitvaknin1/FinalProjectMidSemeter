@@ -19,8 +19,6 @@ namespace FinalProjectMidSemeter
         {
             Vector2 position = TransformP.Position;
             position = new Vector2(position.X, position.Y - Physics.Gravity);
-
-            //need to add another condition for checking collision from the bottom
             if (UseGravity)
                 TransformP.Position = position;
         }
