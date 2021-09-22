@@ -12,11 +12,40 @@ namespace FinalProjectMidSemeter
         bool _isEnable;
         public List<Components> _components = new List<Components>();
         private bool _isEnabled;
+        private TreeNode _treeNode;
+
 
         public string Name { get => _name; set => _name = value; }
         public bool IsEnabled { get => _isEnabled; set => _isEnabled = value; }
-    
 
+        public GameObject Parent
+        {
+            get
+            {
+                if (_treeNode.Parent == null)
+                {
+                    return null;
+                }
+                else
+                {
+                    return _treeNode.Parent.Value;
+                }
+            }
+        }
+        public List<GameObject> Children
+        {
+            get
+            {
+                List<GameObject> list = new List<GameObject>();
+                foreach (var child in treeNode.Children)
+                {
+                    list.Add(child.Value);
+                }
+                return list;
+            }
+
+        }
+        internal TreeNode treeNode { get => _treeNode; set => _treeNode = value; }
         public GameObject(string name)
         {
             Name = name;
@@ -25,6 +54,11 @@ namespace FinalProjectMidSemeter
 
 
         }
+
+        public GameObject()
+        {
+        }
+
         public void Disabale()
         {
             throw new System.NotImplementedException();
