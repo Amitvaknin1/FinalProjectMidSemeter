@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="FinalProjectMidSemeter.Scene">
-    <Position X="8.75" Y="2.5" Width="1.5" />
+    <Position X="11.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Scene.cs</FileName>
@@ -17,7 +17,7 @@
   <Class Name="FinalProjectMidSemeter.GameObject">
     <Position X="11.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAKAAAAKAAIAAAAAEETAUAAABQAAAIAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAIACAAKAIIIAAAAEETAUAAABQAAAIAAAAAAAAAAA=</HashCode>
       <FileName>GameObject.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -30,7 +30,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="FinalProjectMidSemeter.Physics">
-    <Position X="8" Y="4.25" Width="1.5" />
+    <Position X="7" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAIAAAAAAABAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Physics.cs</FileName>
