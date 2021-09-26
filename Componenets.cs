@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace FinalProjectMidSemeter
 {
-    public abstract class Components :IComponent
+    public abstract class Components : IComponent
     {
 
         GameObject _gameObject;
@@ -15,26 +15,18 @@ namespace FinalProjectMidSemeter
         public GameObject GameObjectP { get => _gameObject; set => _gameObject = value; }
         public Transform TransformP { get => _transform; set => _transform = value; }
         public string Name { get => _name; set => _name = value; }
-       
 
-        public void Start()
-        {
-            throw new System.NotImplementedException();
-        }
 
-        public void OnEnable()
-        {
-            throw new System.NotImplementedException();
-        }
+        public void Start() { }
+        public void OnEnable() { }
+        public void OnDisable() { }
+        public void Update() { }
 
-        public void OnDisable()
+        public virtual void Unsubscribe() { }
+        public override string ToString()
         {
-            throw new System.NotImplementedException();
+            return $"{Name}" + Environment.NewLine;
         }
-
-        public void Update(float delatatime)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

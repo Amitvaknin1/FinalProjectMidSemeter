@@ -9,7 +9,7 @@ namespace FinalProjectMidSemeter
     public interface IComponent
     {
         void Start();
-        void Update(float delatatime);
+        void Update();
         void OnDisable();
         void OnEnable();
     }

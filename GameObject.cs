@@ -94,6 +94,7 @@ namespace FinalProjectMidSemeter
 
             IsEnabled = true;
 
+
             
             Console.WriteLine($"GameObject Enabled {ToString()}");
         }
@@ -115,7 +116,7 @@ namespace FinalProjectMidSemeter
             Console.WriteLine($"{Name} is Destroyed");
             Console.WriteLine();
         }
-        
+        public virtual void Unsubscribe() { }
         public void OnDisable()
         {
             throw new System.NotImplementedException();
