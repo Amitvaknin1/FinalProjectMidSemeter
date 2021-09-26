@@ -43,6 +43,9 @@ namespace FinalProjectMidSemeter
 
             Console.WriteLine($"New Game Object has been created {ToString()}");
         }
+
+        
+
         public GameObject Parent
         {
             get

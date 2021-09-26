@@ -12,7 +12,7 @@ namespace FinalProjectMidSemeter
         public Tree tree;
         public TreeBuilder(int allSize, int maxChildrenSize)
         {
-            tree = new Tree(new TreeNode(new GameObject() { Name = "Root" }));
+            tree = new Tree(new TreeNode(new GameObject("") { Name = "Root" }));
             int counter = 0;
             Random rand = new Random();
             Stack<TreeNode> _cache = new Stack<TreeNode>();
@@ -25,7 +25,7 @@ namespace FinalProjectMidSemeter
                 Thread.Sleep(10);
                 for (int i = 0; i < max; i++)
                 {
-                    var child = new TreeNode(new GameObject() { Name = $"{node?.Value?.Name}/{counter}" }, parent: node);
+                    var child = new TreeNode(new GameObject("") { Name = $"{node?.Value?.Name}/{counter}" }, parent: node);
                     counter++;
                     _cache.Push(child);
                 }
