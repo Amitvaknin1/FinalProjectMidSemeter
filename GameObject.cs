@@ -44,7 +44,7 @@ namespace FinalProjectMidSemeter
             Console.WriteLine($"New Game Object has been created {ToString()}");
         }
 
-        
+
 
         public GameObject Parent
         {
@@ -74,14 +74,14 @@ namespace FinalProjectMidSemeter
 
         }
         internal TreeNode treeNode { get => _treeNode; set => _treeNode = value; }
-        
+
 
         public void Disabale()
         {
             Console.WriteLine($"Disabling GameObject{ToString()}");
             IsEnabled = false;
 
-           
+
             Console.WriteLine($"GameObject Disabled {ToString()}");
         }
 
@@ -98,7 +98,7 @@ namespace FinalProjectMidSemeter
             IsEnabled = true;
 
 
-            
+
             Console.WriteLine($"GameObject Enabled {ToString()}");
         }
 
@@ -110,20 +110,17 @@ namespace FinalProjectMidSemeter
 
             for (int i = index - 1; i >= 0; i--)
             {
-                _components[i].Unsubscribe();
+                _components[i].ResetList();
                 _components.Remove(_components[i]);
             }
 
-            Unsubscribe();
+            ResetList();
 
             Console.WriteLine($"{Name} is Destroyed");
             Console.WriteLine();
         }
-        public virtual void Unsubscribe() { }
-        public void OnDisable()
-        {
-            throw new System.NotImplementedException();
-        }
+        public virtual void ResetList() { }
+
 
         public void AddComponent(Components component)
         {

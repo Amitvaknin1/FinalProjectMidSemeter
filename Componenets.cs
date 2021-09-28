@@ -22,7 +22,7 @@ namespace FinalProjectMidSemeter
         public void OnDisable() { }
         public void Update() { }
 
-        public virtual void Unsubscribe() { }
+        public virtual void ResetList() { }
         public override string ToString()
         {
             return $"{Name}" + Environment.NewLine;
