@@ -76,22 +76,22 @@ namespace FinalProjectMidSemeter
         internal TreeNode treeNode { get => _treeNode; set => _treeNode = value; }
 
 
-        public void Disabale()
+        public void Disable()
         {
-            Console.WriteLine($"Disabling GameObject{ToString()}");
+            Console.WriteLine("Disabling GameObject"+ToString());
             IsEnabled = false;
 
 
-            Console.WriteLine($"GameObject Disabled {ToString()}");
+            Console.WriteLine("GameObject Disabled"+ ToString());
         }
 
         public void Enable()
         {
-            Console.WriteLine($"Enabling GameObject {ToString()}");
+            Console.WriteLine("Enabling GameObject"+ ToString());
 
             if (_isEnable == false)
             {
-                Console.WriteLine($"Not enabling {ToString()}");
+                Console.WriteLine("Not enabling "+ToString());
                 return;
             }
 
@@ -99,12 +99,12 @@ namespace FinalProjectMidSemeter
 
 
 
-            Console.WriteLine($"GameObject Enabled {ToString()}");
+            Console.WriteLine("GameObject Enabled "+ToString());
         }
 
         public void Destroy()
         {
-            Console.WriteLine($"Destroying {this}");
+            Console.WriteLine("Destroying" + this);
 
             int index = _components.Count;
 
@@ -116,7 +116,7 @@ namespace FinalProjectMidSemeter
 
             ResetList();
 
-            Console.WriteLine($"{Name} is Destroyed");
+            Console.WriteLine(Name +" is Destroyed");
             Console.WriteLine();
         }
         public virtual void ResetList() { }
@@ -167,7 +167,7 @@ namespace FinalProjectMidSemeter
                 {
                     if (_components[i] == components)
                     {
-                        Console.WriteLine($"Removing Component {_components[i]}");
+                        Console.WriteLine("Removing Component" + _components[i]);
                         Console.WriteLine();
                         _components.Remove(components);
                         return;
@@ -202,7 +202,7 @@ namespace FinalProjectMidSemeter
             {
                 if (item.GetType() == typeof(T))
                 {
-                    Console.WriteLine($"Found component {item}");
+                    Console.WriteLine("Found component"+ item);
                     return item as T;
                 }
             }

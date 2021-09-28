@@ -25,7 +25,7 @@ namespace FinalProjectMidSemeter
         public virtual void ResetList() { }
         public override string ToString()
         {
-            return $"{Name}" + Environment.NewLine;
+            return Name + Environment.NewLine;
         }
         
     }

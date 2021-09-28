@@ -20,7 +20,7 @@ namespace FinalProjectMidSemeter
             Position = new Vector2(0, 0);
             Scale = new Vector2(1, 1);
 
-            Console.WriteLine($"New Transform{this}");
+            Console.WriteLine("New Transform"+this);
         }
 
         public Transform(GameObject gameObject, Vector2 position, Vector2 scale)
@@ -32,7 +32,7 @@ namespace FinalProjectMidSemeter
             Position = position;
             Scale = scale;
 
-            Console.WriteLine(Environment.NewLine + $"New Transform{this}" + Environment.NewLine);
+            Console.WriteLine(Environment.NewLine + " New Transform "+this + Environment.NewLine);
         }
 
 
