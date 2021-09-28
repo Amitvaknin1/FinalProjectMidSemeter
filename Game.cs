@@ -8,7 +8,7 @@ namespace FinalProjectMidSemeter
 {
     public class Game
     {
-         public  Scene scene1 = new Scene();
+         
         public int _deltatime
         {
             get => default;
@@ -22,22 +22,20 @@ namespace FinalProjectMidSemeter
             throw new System.NotImplementedException();
         }
 
-        public bool LoadScene()
+        public bool LoadScene(Scene scene1)
         {
             if (scene1.IsSceneActive())
             {
                 return false;
             }
-            else scene1.LoadScene(scene1);
+            else scene1.LoadScene( scene1);
             return true;
         }
 
-        public void NewGame()
-        {
-            throw new System.NotImplementedException();
-        }
+        public void NewGame(Scene scene1) { }
+        
 
-        public void ActiveScene()
+        public void ActiveScene(Scene scene1)
         {
             if (scene1.IsSceneActive() == true)
             {
