@@ -11,7 +11,7 @@ namespace FinalProjectMidSemeter
     
         class Tree : IEnumerable<TreeNode>
         {
-            public TreeNode Root { get; private set; }
+            public TreeNode Root { get;  set; }
 
             public Tree(TreeNode root)
             {

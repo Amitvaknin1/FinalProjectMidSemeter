@@ -8,58 +8,21 @@ namespace FinalProjectMidSemeter
 {
     public class Scene
     {
-        private List<GameObject> GameObjects;
-        bool isActive;
+        private List<Tree> Hierarchy { get; set; }
+        string name { get; set; }
+        int lvlcounter = 0;
+        public Scene (string name = "new Scene")
+        {
+            this.name = name;
+            lvlcounter = 0;
+        }
+        public void AddGameObjectRoot()
+        {
+            Console.WriteLine("Give your game object a name ");
+            string gameobjectname = Console.ReadLine();
+            Hierarchy[lvlcounter].Root = (new TreeNode(new GameObject(gameobjectname), null));
+            lvlcounter++;
+        }
 
-        public Scene()
-        {
-            GameObjects = new List<GameObject>();
-        }
-        public void AddGameObject(GameObject go)
-        {
-            GameObjects.Add(go);
-            go.Enable();
-        }
-
-        public void RemoveGameObject(GameObject go)
-        {
-            GameObjects.Remove(go);
-            go.Disable();
-        }
-        public void RemoveGameObjectByName(string ObjectName)
-        {
-            foreach (var go in GameObjects)
-            {
-                if (go.Name == ObjectName)
-                {
-                    GameObjects.Remove(go);
-                    go.Disable();
-                }
-            }
-        }
-        public bool IsSceneActive()
-        {
-            if (isActive)
-            {
-                return true;
-            }
-            return false;
-        }
-        public void ActivateScene()
-        {
-            isActive = true;
-        }
-        public void DisableScene()
-        {
-            isActive = false;
-        }
-        public void LoadScene(Scene scene)
-        {
-              scene.ActivateScene();
-        }
-        public void UnloadScene(Scene scene)
-        {
-            scene.DisableScene();
-        }
     }
 }
