@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Timers;
 
 namespace FinalProjectMidSemeter
 {
     public class Scene
     {
+        
         private List<Tree> Hierarchy { get; set; }
-        string name { get; set; }
+       public string name { get; set; }
         int lvlcounter = 0;
         public Scene (string name = "new Scene")
         {
